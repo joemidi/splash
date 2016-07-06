@@ -26,6 +26,7 @@ then
   # Force push from the current repo's master branch to the remote
   # (All previous history on the master branch will be lost, since we are overwriting it.)
   git push --force origin gh-pages
+  open https://joemidi.github.io/splash/
 
 else
   echo "$DIRECTORY does not exist!"
